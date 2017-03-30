@@ -1,0 +1,25 @@
+<html>
+    
+    <head>  
+        
+        <link href="" rel="stylesheet">
+    </head>
+    <body>
+    
+        <table id="tbl">
+            <tr>
+                <td onclick="changecolor()" id="td11">11</td>
+                <td onclick="changetime()"  id="td12">12</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+            </tr>
+        </table>
+    </body>
+    
+</html>

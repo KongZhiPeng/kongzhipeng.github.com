@@ -1,0 +1,22 @@
+#test{
+	width: 240px;
+	height: 40px;
+	border:1px solid #666;
+    text-align: center;
+    line-height: 40px;
+}
+#test:before{
+	content: "开始日期：";
+}
+#test:after{
+	content: "";
+	background: url(日历.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	width: 30px;
+	height:30px;
+    display: inline-block;
+    float: right;
+    margin-top: 2px;
+    margin-right: 20px;
+}

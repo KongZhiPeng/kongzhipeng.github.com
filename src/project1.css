@@ -1,0 +1,51 @@
+
+
+#t1 {
+   width: 800px;
+   height: 150px;
+}
+#t1 td{
+   width:25%
+}
+
+
+#t2{
+   width: 600px;
+   height: 130px; 
+}
+
+#t2 td{
+	width: 50%
+}
+
+#t2 #t2d1{
+   width: 25%
+}
+#t2 #t2d2{
+   width: 75%
+}
+#t3{
+   width: 600px;
+   height: 300px; 
+}
+
+#t3 #t3d1{
+	width: 40%
+}
+#t3 #t3d2{
+	width: 60%
+}
+
+.tl{
+   border-right: 1px dotted #000;
+   width: 200px;
+}
+.tl2{
+   border: 1px solid gray;   
+}
+.tl3{
+   border-right: 1px solid gray;
+}
+table{
+   border-collapse: collapse;
+}
