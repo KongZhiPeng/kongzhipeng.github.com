@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#b1{
+	width: 200px;
+	height: 200px;
+	border: 2px solid;
+	border-radius: 25px;
+	-moz-border-radius:25px;
+}

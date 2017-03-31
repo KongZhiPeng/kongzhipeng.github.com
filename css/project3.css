@@ -2,19 +2,47 @@
 	box-sizing: border-box;
 	width: 300px;
 	height: 100px;
-	border:1px solid gray;
+	border:1px solid  #aaa;
+	font-size: 6px;
 }
 
-#box1_d1{
-	font-weight: bold;
+
+#box1_d11{
 	width: 58px;
 	height: 20px;
 	box-sizing: border-box;
 	float: left;
-	border-right: 1px solid gray;
+	border-bottom:1px solid  #aaa;
+	background-color: rgb(250,250,250);
     text-align: center;
     line-height: 18px;
     vertical-align:middle;
+}
+
+#box1_d11:hover{
+	border-right: 1px solid  #aaa;
+	border-bottom: 0px ;
+	font-weight:bold;
+	background-color:#fff;
+}
+
+#box1_d12{
+	width: 60px;
+	height: 20px;
+	box-sizing: border-box;
+	float: left;
+	border-bottom:1px solid  #aaa;
+	background-color: rgb(250,250,250);
+    text-align: center;
+    line-height: 18px;
+    vertical-align:middle;
+}
+
+#box1_d12:hover{
+	border-left: 1px solid  #aaa;
+	border-bottom: 0px ;
+	font-weight:bold;
+	background-color:#fff;
 }
 
 .box1_d1{
@@ -22,11 +50,19 @@
 	width: 60px;
 	height: 20px;
 	float: left;
-	border-bottom:1px solid gray;
+	border-bottom:1px solid  #aaa;
     text-align: center;
     line-height: 18px;
     vertical-align:middle;
-    background-color: rgb(247,247,247);
+    background-color: rgb(250,250,250);
+}
+
+.box1_d1:hover{
+	border-left: 1px solid  #aaa;
+	border-right: 1px solid  #aaa;
+	border-bottom: 0px ;
+	font-weight:bold;
+	background-color:#fff;
 }
 
 .box1_d2{
@@ -36,7 +72,7 @@
 	float: left;
 	margin-top: 10px;
 	margin-left: 10px;
-	border:1px solid black;
+	border:1px solid #000;
 }
 
 #box2{
@@ -44,9 +80,9 @@
 	box-sizing: border-box;
 	width: 300px;
 	height: 120px;
-	border-left:1px solid gray;
-	border-right:1px solid gray;
-	border-bottom:1px solid gray;
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid  #aaa;
 }
 #box2_d1{
 	width: 65px;
@@ -62,7 +98,7 @@
 	float: left;
 	margin-top:20px;
 	margin-left:5px;  
-	border:1px solid black; 
+	border:1px solid #000; 
 }
 #box2_d3{
 	width: 190px;
@@ -82,16 +118,26 @@
 	height: 25px;
 	margin:10px;
 	float: left;
+	font-size: 7px;
+	color: #fff;
 	text-align: center;
+	line-height: 25px;
+    vertical-align:middle;
 	background-color: rgb(255,68,0);
 }
+
+.box2_d4:hover{
+	box-shadow: 2px 2px 2px #aaa;
+	transform:translate(-2px,-2px);
+}
+
 #box3{
 	box-sizing: border-box;
 	width: 300px;
 	height: 50px;
-	border-left:1px solid gray;
-	border-right:1px solid gray;
-	border-bottom:1px solid gray;
+	border-left:1px solid  #aaa;
+	border-right:1px solid  #aaa;
+	border-bottom:1px solid  #aaa;
 }
 #box3_d1{
 	width: 260px;
@@ -99,7 +145,7 @@
 	float: left;
 	margin-top: 15px;
 	margin-left: 10px;
-	border:1px solid black;
+	border:1px solid #000;
 }
 #box4{
 
@@ -110,28 +156,43 @@
 	width: 120px;
 	height: 150px;
 	box-sizing: border-box;
-	border-right:1px solid gray;
-	border-bottom:1px solid gray;
-	border-left:1px solid gray;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	border-left:1px solid #aaa;
 	float: left;
+	text-align: center;
+	font-size: 10px;
+	color: #aaa;
+	line-height: 2px;
+    vertical-align:middle;
 }
 .box4_d1{
 	width: 60px;
 	height: 75px;
 	box-sizing:border-box;
-	border-right:1px solid gray;
-	border-bottom:1px solid gray;
+	border-right:1px solid  #aaa;
+	border-bottom:1px solid  #aaa;
 	float: left;
+	text-align: center;
+	font-size: 10px;
+	color:  #aaa;
+	line-height: 2px;
+    vertical-align:middle;
 }
 
 #box4_d2{
 	width: 60px;
 	height: 75px;
 	box-sizing:border-box;
-	border-right:1px solid gray;
-	border-bottom:1px solid gray;
-	border-left:1px solid gray;
+	border-right:1px solid  #aaa;
+	border-bottom:1px solid  #aaa;
+	border-left:1px solid #aaa;
 	float: left;
+	text-align: center;
+	font-size: 10px;
+	color:  #aaa;
+	line-height: 2px;
+    vertical-align:middle;
 }
 
 #box4_d3{
@@ -150,12 +211,16 @@
 	margin-top: 10px;
 }
 
-#box4 p{
-	margin-left: 22px;
-	display: inline;
+/*#box4 p{
+	text-align: center;
+	display: inline-block;
+	font-size: 10px;
+
+
 }
 
 #box4_b1 p{
-	margin-left: 50px;
+	margin-left: 36px;
 	display: inline;
-}
+	color: gray;
+}*/
