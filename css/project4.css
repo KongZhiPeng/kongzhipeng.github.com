@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-07 09:50:22
+ * @version $Id$
+ */
+body{
+	background-color: #99BD90;
+}
+
+.ui-container{
+	width: 800px;
+	height: 600px;
+	background-color:#CDD3F5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center; 
+	align-content:center;
+	border:1px solid #000;
+	margin-bottom: 50px;
+}
+
+.ui-container-up{
+	width: 760px;
+	height: 120px;
+	background-color:#99BD90;
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+	align-content:center;
+	border:1px solid #000;
+}
+
+.ui-container-up-cell{
+	width: 80px;
+	height: 80px;
+	background-color:#CDD3F5;
+	display: flex;
+	border:1px solid #000;
+}
+
+.ui-container-up-empty{
+	width: 120px;
+	height: 80px;
+}
+
+.ui-container-down{
+	width: 760px;
+	height: 420px;
+	background-color:#99BD90;
+	display: flex;
+	margin-top: -20px;
+	flex-wrap: wrap;
+	align-items: center; 
+	border:1px solid #000;
+	justify-content: space-around;
+
+}
+
+.ui-container-down-cell-left{
+	width: 200px;
+	height: 370px;
+	background-color: #99BD90;
+	display: flex;
+	margin-top: -10px;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+
+.ui-container-down-subcell-up{
+	width: 200px;
+	height: 300px;
+	background-color:#CDD3F5;
+	display: flex;
+	border:1px solid #000;
+}
+
+.ui-container-down-subcell-down{
+	width: 50px;
+	height: 50px;
+	background-color:#CDD3F5;
+	display: flex;
+	align-self: flex-end;
+	border:1px solid #000;
+}
+
+.ui-container-down-cell-right{
+	width: 480px;
+	height: 370px;
+	background-color: #99BD90;
+	display: flex;
+    flex-direction:column;
+	margin-top: -10px;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+
+.ui-container-down-subcell-right{
+	width: 480px;
+	height: 40px;
+	background-color:#CDD3F5;
+	display: flex;
+	border:1px solid #000;
+}
+
+.ui-box{
+	width: 390px;
+	height: 370px;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ui-box-container{
+	width: 390px;
+	height: 260px;
+	display: flex;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+
+.ui-box-subcontainer{
+    width: 390px;
+    height: 110px;
+    background-color: #FFE6F4;
+    display: flex;
+    border:1px solid #000;
+    flex-wrap: wrap;
+    flex-direction: column;
+	justify-content: space-around;
+	align-items: center; 
+	align-content:center;
+
+}
+.ui-box-subcontainer-subbox{
+	width: 372px;
+	height: 92px;
+	display: flex; 
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+   
+}
+
+.ui-box-subcontainer-text{
+	width: 370px;
+	height: 20px;
+	background-color: #FFF;
+	border:1px solid #000;
+	display: flex;
+}
+
+.ui-box-subcontainer-prize{
+	width: 370px;
+	height: 30px;
+	background-color: #FFF;
+	border:1px solid #000;
+	display: flex;
+}
+
+.ui-box-span-head{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	line-height: 20px;
+	vertical-align:middle;
+	font-weight:bold;
+	margin-left: 5px;
+}
+
+.ui-box-span-text{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	line-height: 20px;
+	vertical-align:middle;
+	font-weight:bold;
+	margin-left: 5px;
+	color: #F72454;
+}
+
+.ui-box-span-prize-sym{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	line-height: 30px;
+	vertical-align:middle;
+	font-weight:bold;
+	margin-left: 5px;
+	color: #F72454;
+}
+
+.ui-box-span-prize-number{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 28px;
+	vertical-align:middle;
+	font-weight:bold;
+	margin-left: 2px;
+	color: #F72454;
+}
+
+.ui-box-span-prize-orig{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	line-height: 39px;
+	vertical-align:middle;
+	margin-left: 8px;
+	color: #333333;
+	text-decoration: line-through;
+}
+
+.ui-box-span-prize-empty{
+	width: 130px;
+	height: 30px;
+}
+
+.ui-box-span-prize-sale{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	line-height: 39px;
+	vertical-align:middle;
+	margin-left: 2px;
+	color: #333333;
+}
+																								
+.ui-page{
+	width: 1190px;
+	height: 755px;
+	margin-top:50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+	align-items: center; 
+	align-content:space-between;
+	border:1px solid #ccc;
+	padding: 10px;
+	background-color: #f2f2f2;
+}
