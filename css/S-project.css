@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (704002390@qq.com)
+ * 第一次做这个
+ * @date    2017-04-08 13:20:58
+ * @version $Id$
+ */
+
+.ui-page{
+	width: 800px;
+	height: 500px;
+	border:2px solid #000;
+	border-radius:25px;
+	background-color: #ccc;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+
+.ui-page-h1{
+	align-self: center;
+	text-align: center;
+	font-family: "Microsoft YaHei"; 
+	display: flex;
+}
+
+.ui-page-input-m{
+	width: 400px;
+	height: 20px;
+    display: flex;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+.ui-page-h2{
+    width: 300px;
+    height: 80px;
+	display: flex;
+	font-size: 25px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei"; 
+	margin-left: 50px;
+}
+
+.ui-page-h3{
+    width: 300px;
+    height: 80px;
+	display: flex;
+	font-size: 25px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei"; 
+	margin-left: 50px;
+}
+
+.ui-page-input-c{
+	width: 400px;
+	height: 20px;
+    display: flex;
+    margin-top: -75px;
+    margin-left: 50px;
+}
+
+.ui-page-h4{
+    width: 300px;
+    height: 80px;
+	display: flex;
+	font-size: 25px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei"; 
+	margin-left: 50px;
+}
+
+.ui-page-input-key{
+	width: 100px;
+	height: 20px;
+    display: flex;
+    margin-top: -83px;
+    margin-left: 50px;
+}
+
+.ui-page-bt-kaisa{
+	width: 200px;
+	height: 40px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.ui-page-bt-kaisa-jiami{
+	width: 60px;
+	height: 40px;
+    display: flex; 
+    font-size: 20px;
+	font-family: "Microsoft YaHei"; 
+    text-align: center;
+}
+
+.ui-page-bt-kaisa-jiemi{
+	width: 60px;
+	height: 40px;
+	margin-left: 20px;
+    display: flex;
+    font-size: 20px;
+	font-family: "Microsoft YaHei"; 
+    text-align: center;
+}

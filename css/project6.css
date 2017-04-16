@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-14 09:52:47
+ * @version $Id$
+ */
+
+.ui-cont{
+	width: 400px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	border:1px solid #000000;
+	position: relative;
+}
+
+.ui-cont-cell{
+	width: 55px;
+	height: 55px;
+	border:1px solid #000000;
+	display: flex;
+	margin:10px;
+	background-size:cover;
+	background-position: center;
+}
+
+.ui-cont-empcell{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+/*.ui-cont-subempcell{
+	align-self: center;
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+}
+*/
+.ui-cont-subcell{
+	width: 200px;
+	height: 200px;
+	margin-top: -270px;
+	margin-left: -565px;
+	border:1px solid #000000;
+	display: flex;
+	position: absolute;
+	background-size:200px 200px;
+	background-position: center;
+}
+
+.ui-page{
+	margin-top: 50px;
+}
+
+.ui-page-lable{
+	width: 270px;
+	height: 40px;
+	display: flex;
+	border-top:1px solid #000000;
+	border-right:1px solid #000000;
+}
+
+.ui-page-sublable{
+	width: 90px;
+	height: 40px;
+	display: flex;
+	border-left:1px solid #000000;
+}
+
+.ui-page-text{
+	width: 400px;
+	height: 300px;
+	border:1px solid #000000;
+	font-size: 100px;
+	color: #808080;
+	text-align: center;
+	line-height: 300px;
+	font-weight: bold;
+}
+
+.ui-page-subtext{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+}
+
+.ui-data{
+	margin-top: 50px;
+	width: 400px;
+	border:1px solid #000000;
+	padding: 10px;
+}
+
+.ui-data-row{
+	margin-top: 10px;
+	width: 350px;
+	height: 30px;
+	display: flex;
+	border:1px solid #000000;
+}
+
+.ui-row-num{
+	width: 40px;
+	height: 30px;
+	border-right:1px solid #000000;
+	text-align: center;
+	line-height: 30px;
+}
+
+.ui-row-text{
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-right:1px solid #000000;
+}
+
+.ui-row-delete{
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.ui-data-add{
+	width: 100px;
+	height: 30px;
+	color: #ffffff;
+	background-color: #339966;
+	border:1px solid #000000;
+	text-align: center;
+	margin-top: 50px;
+	line-height: 30px;
+	margin-left: 270px;
+}
