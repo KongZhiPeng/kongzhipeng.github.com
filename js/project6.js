@@ -32,6 +32,9 @@ function init(){
 
 	//第二题
 	$(".ui-page-subtext").hide();
+	$(".ui-page-sublable:eq(0)").css("background-color","#c0c0c0");
+	$(".ui-page-subtext:eq(0)").fadeIn(500);
+	$(".ui-page-subtext:eq(0)").text(1);
 	$(".ui-page-sublable").click(function(){
 		var number=$(this).index();
 		$(this).css("background-color","#c0c0c0").siblings(this).css("background-color","#ffffff");
