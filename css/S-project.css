@@ -26,12 +26,44 @@
 	display: flex;
 }
 
-.ui-page-input-m{
+.ui-page-way{
 	width: 400px;
+	height: 30px;
+	display: flex;
+	border-bottom: 2px solid #ffffff;
+	border-top: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	margin-left: 50px;
+}
+
+.ui-way-cell{
+	width: 100px;
+	height: 30px;
+	border-right: 2px solid #ffffff;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 30px;
+	font-size: 17px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.ui-page-box{
+	border: 2px solid #ffffff;
+	width: 402px;
+	height: 350px;
+	position: absolute;
+	margin-top: 117px;
+	margin-left: 50px;
+	box-sizing: border-box;
+}
+
+.ui-page-input-m{
+	width: 380px;
 	height: 20px;
     display: flex;
     margin-top: -70px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 .ui-page-h2{
@@ -41,7 +73,7 @@
 	font-size: 25px;
 	font-weight: normal;
 	font-family: "Microsoft YaHei"; 
-	margin-left: 50px;
+	margin-left: 5px;
 }
 
 .ui-page-h3{
@@ -51,15 +83,15 @@
 	font-size: 25px;
 	font-weight: normal;
 	font-family: "Microsoft YaHei"; 
-	margin-left: 50px;
+	margin-left: 5px;
 }
 
 .ui-page-input-c{
-	width: 400px;
+	width: 380px;
 	height: 20px;
     display: flex;
     margin-top: -75px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 .ui-page-h4{
@@ -69,7 +101,7 @@
 	font-size: 25px;
 	font-weight: normal;
 	font-family: "Microsoft YaHei"; 
-	margin-left: 50px;
+	margin-left: 5px;
 }
 
 .ui-page-input-key{
@@ -77,18 +109,18 @@
 	height: 20px;
     display: flex;
     margin-top: -83px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
-.ui-page-bt-kaisa{
+.ui-page-bt{
 	width: 200px;
 	height: 40px;
     display: flex;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
-.ui-page-bt-kaisa-jiami{
+.ui-page-bt-jiami{
 	width: 60px;
 	height: 40px;
     display: flex; 
@@ -97,7 +129,7 @@
     text-align: center;
 }
 
-.ui-page-bt-kaisa-jiemi{
+.ui-page-bt-jiemi{
 	width: 60px;
 	height: 40px;
 	margin-left: 20px;
@@ -105,4 +137,19 @@
     font-size: 20px;
 	font-family: "Microsoft YaHei"; 
     text-align: center;
+}
+
+.ui-page-load{
+	width: 80px;
+	height: 25px;
+	border: 2px solid #ffffff;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 200px;
+}
+
+.ui-page-load:hover{
+	background-color: #ffffff;
 }
